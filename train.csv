@@ -1,4 +1,4 @@
-Train No,Train Name,Source Station,Destination Station
+TNo,TName,SourceStation,DestinationStation
 107,SWV-MAO-VLNK,SWV,MAO
 108,VLNK-MAO-SWV,MAO,SWV
 128,MAO-KOP SPEC,MAO,KOP
