@@ -20,15 +20,16 @@ if option == "Problem 1":
         "Problem 1 - Display all trains that arrive at their destination at Midnight")
     problems.p1()
     st.markdown(
-        "here, all the trains with current station matching their destination station and arrival time midnight are displayed")
+        "Here, all the trains with current station matching their destination station and arrival time midnight are displayed")
 
 if option == "Problem 2":
     st.subheader(
-        "Problem 2 - Find the minimum, maximum and average halts for all trains")
+        "Problem 2 - Find the minimum, maximum and average halts for all trains (This is given in minutes)")
     problems.p2()
-    st.markdown("put dept/arr handling explanation here")
+    st.markdown("Here, the halt times of departing and arriving trains are given a default value of 2 hours to prevent any skew in the data")
 if option == "Problem 3":
     st.subheader(
         "Problem 3 - Display the number of trains for a given source and destination")
     problems.p3()
-    st.markdown("put logic explanation here")
+    st.markdown(
+        "Here, the table is self joined to find the source and destination pairs where they also match sequentially")
