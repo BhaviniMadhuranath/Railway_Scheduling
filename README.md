@@ -14,6 +14,10 @@ Python
 
 ---
 
+### Video demo link
+
+## https://drive.google.com/file/d/1Dfg6QbThSOYXu0C134yFajI2nSHzeN9F/view?usp=drive_link
+
 ### How to run
 
 `Note: This currently runs only on my local machine as i have set up the database on it`
@@ -45,3 +49,12 @@ on CMD, navigate to the directory of the repository and run
 3. halts - contains the amount of time halted (in minutes) at a given station by a given train
 4. stops - contains every stop by every train along with sequence
 5. midnight - contains all trains that arrive at their destination at midnight
+
+---
+
+### What would I do if the volume is increased?
+
+I would change my approach to handling data station wise and creating a master function to access each train data accordingly.
+This approach would certainly solve the space overhead in the case of the source-to-destination query, but will take up more time in terms of queries in the backend when it comes to the halt problem statement.
+
+---
